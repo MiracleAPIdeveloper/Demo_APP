@@ -27,10 +27,6 @@
         </configuration>
         </plugin>
             </plugins>
-  <server>
-        <id>mytomcat</id>
-        <username>admin</username>
-        <password>admin</password>
-</server>
+  
   </build>
 </project>
