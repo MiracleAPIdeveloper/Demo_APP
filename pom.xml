@@ -13,7 +13,7 @@
     <artifactId>tomcat7-maven-plugin</artifactId>
     <version>2.2</version>
     <configuration>
-        <url>http://192.168.11.25:8888/manager/html</url>
+        <url>http://192.168.11.25:8888</url>
         <server>TomcatServer</server>
         <path>/Users/kinnu/Desktop/tomcat/webapps/manager</path>
     </configuration>
@@ -27,5 +27,10 @@
         </configuration>
         </plugin>
             </plugins>
+  <server>
+        <id>mytomcat</id>
+        <username>admin</username>
+        <password>admin</password>
+</server>
   </build>
 </project>
