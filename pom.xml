@@ -14,7 +14,11 @@
     <version>2.2</version>
     <configuration>
         <url>http://192.168.11.25:8888</url>
-        <server>TomcatServer</server>
+        <server>
+        <id>mytomcat</id>
+        <username>admin</username>
+        <password>admin</password>
+</server>
         <path>/Users/kinnu/Desktop/tomcat/webapps/manager</path>
     </configuration>
 </plugin>
